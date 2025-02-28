@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Messages</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Noto Sans", sans-serif;
+  background: #FDAB9E ;
+}
+
+.container{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 400px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 25px;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  border-radius: 25px;
+}
+
+.flip-card-back {
+  background-color: #ffeeb3;
+  color: rgb(1, 1, 1);
+  transform: rotateY(180deg);
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: medium;
+}
+
+.flip-card-back p{
+    font-size: medium;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./images/image-7.jpg" alt="Avatar" style="width:300px;height:400px; border-radius: 25px;">
+              </div>
+              <div class="flip-card-back">
+                  <p style="padding-left: 20px; padding-right: 20px;">Okkk soo 1st time meeting, G11 bayata. Manama matladam...kaani nuvvu matladav le, hehehehe.
+                      Asal nuvvu ela matladavo...general gaa evaritho nuvve 1st convo start cheyyav, alantidhi, 
+                      naatho baane matladav, and the main thing...VIBE set ayyindhi roiiiii !!!
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card" style="width: 300px; height: 493px;">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="./images/image-4.jpg" alt="Avatar" style="width:300px;height:493px; border-radius: 25px;">
+                </div>
+                <div class="flip-card-back">
+                  <p style="padding-left: 20px; padding-right: 20px;">Inka ento ala manchigaa matladuthu, baane close ayipoyammmm. ERAS TOUR !!!! Super asalu
+                      adhi aythe, hehehee. Asal Taylor Swift songs e appudu dhaaka eppudu vinale...alaa nee valla 
+                      Swiftie ayipoya. Nuvvu aythe pichi dhanila genthuthu unnav 😂. Kaani super anipichindhi 
+                      nuvvu ala enjoy chesthu unte 😁😁😁
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="flip-card" style="width: 300px; height: 544px;">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./images/image-5.jpg" alt="Avatar" style="width:300px;height:544px; border-radius: 25px;">
+                  </div>
+                  <div class="flip-card-back">
+                      <p style="padding-left: 20px; padding-right: 20px;">Inka ento ala manchigaa matladuthu, baane close ayipoyammmm. ERAS TOUR !!!! Super asalu
+                        adhi aythe, hehehee. Asal Taylor Swift songs e appudu dhaaka eppudu vinale...alaa nee valla 
+                        Swiftie ayipoya. Nuvvu aythe pichi dhanila genthuthu unnav 😂. Kaani super anipichindhi 
+                        nuvvu ala enjoy chesthu unte 😁😁😁
+                      </p>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./images/image-3.jpg" alt="Avatar" style="width:300px;height:400px; border-radius: 25px;">
+                  </div>
+                  <div class="flip-card-back">
+                      <p style="padding-left: 20px; padding-right: 20px;">Mana first Movie Date !! Ante date anukoni ellaledhu le manam, but still...now it can be called 
+                        as a Date, hehehe. Ammo 1st half aythe nidra asalu 😂😂😂. Actually, madhya madhyalo ninnu chusthu
+                        unna...enduko theledu 🙃. Kaani asal full comfortable gaa kaalu paiki pettukoni kurchunnav...full 
+                        cute anipichindhi 😁😁🍥🍥
+                      </p>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./images/image-1.jpg" alt="Avatar" style="width:300px;height:400px; border-radius: 25px;">
+                  </div>
+                  <div class="flip-card-back">
+                      <p style="padding-left: 20px; padding-right: 20px;">Asal chaala baa gadipesam 2nd year motham, kalisi movies chusthu....2nd sem lo aythe french class
+                        kuda same, exams appudu kalisi french chadhuvuthu...chaala baa anipinchindhi, hehehe. Asal neetho
+                        exams ki chadhavadam entha entertaining o thelsa 😂😂😂. Nuvvu iche thikka thikka answers ki full
+                        navvukochu 😂😂😂😂. Chaala ante chaala entertaining ga untadhi neetho unte, heheheeeee.
+                      </p>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-card" style="width:300px;height:423px;">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./images/image-6.jpg" alt="Avatar" style="width:300px;height:423px; border-radius: 25px;">
+                  </div>
+                  <div class="flip-card-back">
+                      <p style="padding-left: 20px; padding-right: 20px;">Hmmm...okk koncham feel set avuthundhi...you know what..YOU'RE THE BEST !! Asal neetho unte chaala
+                        happy ga undochu thelsa. Full navvisthav and entertaining. Okavela eppudaina chirak ga unna, asal 
+                        chaala easy gaa cool chesesthav. Full kind and helping kuda...and chaala caring. Asal ela nachano
+                        nenu neeku...ante nenu mari abhishek antha manchodini kaadu or shiva shlok antha cute cute ga, SUPER
+                        undanu ga 🙄🙄
+                      </p>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-card" style="width: 300px; height: 523px;">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./images/image-2.jpg" alt="Avatar" style="width:300px;height:523px; border-radius: 25px;">
+                  </div>
+                  <div class="flip-card-back">
+                      <p style="padding-left: 20px; padding-right: 20px;">Anyways, You're the Best thing happend to me !! Asal I am THE LUCKIEST for having you beside me
+                        OK, I know you're gonna hate this...kaani nenu eppudaina ninnu hurt chesi unte....I am really sorry
+                        for that. I can be a better person pakka and I'll always be with you. Asale high maintainence ga,
+                        nenu thappinchi inka evaru chooskuntaru le ninnu 😌😌. Cheppali ante inka chaala pages osthayi, 
+                        So ikkada tho inkaa aagutha le. Once Again, HAPPY VALENTINE'S DAY BANGARAM !!!
+                      </p>
+                  </div>
+                </div>
+              </div>
+    </div>
+</body>
+</html>

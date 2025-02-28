@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #FDAB9E;
+            gap: 2rem;
+            font-family: "Noto Sans", sans-serif;
+        }
+        .propose-btn{
+            background-color: #ff4d6d;
+            border: none;
+            padding: 15px 30px;
+            color: white;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 25px;
+            transition: background-color 0.3s ease;
+        }
+        video{
+            width: 800px;
+            align-self: center;
+        }
+        .propose-btn:hover{
+            background-color: #ffffff;
+            color: #f2264b;
+        }
+        @media only screen and (max-width: 480px) {
+            body {
+                font-size: 0.6rem;
+                padding: 10%;
+                text-align: center;
+            }
+            video{
+                width: 350px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Watch the Video before going ahead...</h1>
+    <video controls><source src="./images/my-video-com.mp4"></video>
+    <button class="propose-btn" onclick="window.location.href='./cards.html'">Go Ahead</button>
+</body>
+</html>
